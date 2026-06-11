@@ -17,13 +17,16 @@ public class JavaMessage {
     
     //contruscucter to build a message object when its sent
     public JavaMessage(LString messagePayload, boolean isSent, boolean isRecieved,
-            {this.messagePayload= messagePayload;
+            {
+            this.messagePayload= messagePayload;
             this.isSent = isSent;
             this.isRecieved = isReceived;
-            this.isRead = isRead;}
+            this.isRead = isRead;
 }
+    {
 public String getStatusMessage(){
     return "Status: Message Sent [" + isSent + "], [" +isRecived + ] 
+
 
             
 
